@@ -1,5 +1,3 @@
-# hello_world_function.py
-
 import streamlit as st
 
 st.markdown("""

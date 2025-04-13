@@ -1,0 +1,92 @@
+.stApp > header {
+  background-color: white;
+}
+
+.stApp {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: white;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+div[class="st-emotion-cache-1wda3go e194bff02"] h2 {
+  color: black;
+  font-weight: bold;
+}
+
+div[class="stColumn st-emotion-cache-t74pzu eu6p4el2"] {
+  background-color: rgb(64, 201, 162); /* Green background */
+  border-radius: 8px !important; /* Rounded corners */
+  font-weight: bold !important; /* Bold text */
+  padding: 15px 15px; /* Added padding */
+  border: none;
+  min-height: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+div[class="st-emotion-cache-seewz2 e194bff00"]  {
+  font-size: 16px;
+  padding: 15px 15px 0px 0px;
+}
+
+div[class="st-emotion-cache-seewz2 e194bff00"] p {
+  font-size: 12px;
+  min-height: 72px;
+}
+
+div[class="stButton st-emotion-cache-8atqhb e1mlolmg0"] {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button[class="st-emotion-cache-b0y9n5 em9zgd02"] {
+  background-color: rgb(0, 0, 0); /* Green background */
+  color: white !important; /* White text */
+  font-weight: bold !important; /* Bold text */
+  border: none;
+  height: 20px; /* Increased height */
+  width: 20px; /* Added width */
+  padding: 20px 20px; /* Added padding */
+}
+
+button[class="st-emotion-cache-b0y9n5 em9zgd02"]::after {
+  content: "→"; /* Right arrow character */
+  position: absolute;
+  font-size: 20px;
+}
+
+div[class*="stDialog"] div[class="stButton st-emotion-cache-8atqhb e1mlolmg0"] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div[class*="stDialog"] button[class="st-emotion-cache-b0y9n5 em9zgd02"] {
+  background-color: rgb(172, 20, 20);
+  width: 150px;
+}
+
+div[class*="stDialog"] button[class="st-emotion-cache-b0y9n5 em9zgd02"]::after {
+  all:initial;
+}
+
+div[class*="stDialog"] div[class="stDownloadButton"] {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+div[class*="stDialog"] div[class="stDownloadButton"] button[class="st-emotion-cache-b0y9n5 em9zgd02"] {
+  background-color: rgb(116, 136, 4);
+}
+
+
+.custom-text {
+  font-size: 17px;
+  color: gray;
+}
